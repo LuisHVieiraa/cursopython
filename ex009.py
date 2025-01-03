@@ -7,5 +7,5 @@ print('A tábuada de {} é: '.format(n))
 print('='*20)
 
 while(tab <=10):
-    print('{} x {} = {}'.format(n,tab,n*tab))
+    print('{} x {:2} = {}'.format(n,tab,n*tab))
     tab = tab + 1
